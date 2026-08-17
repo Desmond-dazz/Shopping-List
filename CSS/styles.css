@@ -222,7 +222,7 @@ form button:hover {
   }
 
   form ul li label {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   form .checkBox {
@@ -239,7 +239,14 @@ form button:hover {
   }
 
   form button {
-    font-size: 16px;
+    font-size: 20px;
+  }
+}
+/* Mobile medium */
+@media (max-width: 375px) {
+  form {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
