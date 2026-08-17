@@ -226,12 +226,12 @@ form button:hover {
   }
 
   form .checkBox {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
   }
 
   form ul .fa-trash {
-    font-size: 30px;
+    font-size: 18px;
   }
 
   form .fa-circle-plus {
