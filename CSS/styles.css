@@ -245,15 +245,15 @@ form button:hover {
 /* Mobile medium */
 @media (max-width: 375px) {
   form {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
 @media (max-width: 360px) {
   form {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
@@ -270,7 +270,7 @@ form button:hover {
     display: inline-block;
   }
   form {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
