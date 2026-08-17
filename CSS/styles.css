@@ -198,6 +198,10 @@ form button:hover {
 
 /* Mobile Large */
 @media (max-width: 425px) {
+  header {
+    display: block;
+    padding-left: 20px;
+  }
   header i {
     font-size: 38px;
   }
