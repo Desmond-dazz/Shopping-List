@@ -250,6 +250,13 @@ form button:hover {
   }
 }
 
+@media (max-width: 360px) {
+  form {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 /* Mobile Small */
 @media (max-width: 320px) {
   header {
