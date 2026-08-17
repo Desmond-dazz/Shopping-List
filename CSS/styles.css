@@ -203,8 +203,8 @@ form button:hover {
   }
 
   form {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
 
   form .item {
@@ -226,8 +226,8 @@ form button:hover {
   }
 
   form .checkBox {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
   }
 
   form ul .fa-trash {
@@ -235,7 +235,7 @@ form button:hover {
   }
 
   form .fa-circle-plus {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   form button {
