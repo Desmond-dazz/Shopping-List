@@ -203,8 +203,8 @@ form button:hover {
   }
 
   form {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   form .item {
@@ -254,7 +254,6 @@ form button:hover {
   form {
     padding-left: 20px;
     padding-right: 20px;
-    background-color: black;
   }
 }
 
