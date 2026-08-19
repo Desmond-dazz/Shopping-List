@@ -53,15 +53,12 @@ btnAdd.addEventListener("click", (e) => {
 // Cancell item
 
 list.addEventListener("click", (e) => {
+  let listHeight = Number(list.style.height.replace("px", ""));
   if (e.target.classList[0] == "checkBox") {
     e.target.previousElementSibling.classList.toggle("cancell");
   }
-});
-
-// Delete Item
-list.addEventListener("click", (e) => {
-  let listHeight = Number(list.style.height.replace("px", ""));
-  if (e.target.classList[1] == "fa-trash") {
+  // Delete Item
+  else if (e.target.classList[1] == "fa-trash") {
     e.target.parentElement.style.transform = "translateX(-100%)";
 
     list.style.height = `${listHeight - 61}px`;
@@ -71,6 +68,7 @@ list.addEventListener("click", (e) => {
   }
 });
 
+// Clear all items
 btnClearAll.addEventListener("click", () => {
   const li = document.querySelectorAll("li");
 
